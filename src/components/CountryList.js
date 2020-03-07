@@ -1,12 +1,13 @@
 import React, { Component } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Table } from "react-bootstrap"
+import CountryInfo from "./CountryInfo"
 require("dotenv").config()
 
 class CountryList extends Component {
   constructor(props) {
     super(props)
-    this.state = { countries: null, loading: true }
+    this.state = { countries: null, loading: true, countryInfo: "" }
   }
 
   async componentDidMount() {
@@ -14,19 +15,29 @@ class CountryList extends Component {
       process.env.REACT_APP_API_URL + process.env.REACT_APP_API_KEY
     )
     const data = await response.json()
-    this.setState({ countries: data.results, loading: false })
+    this.setState({ countries: data.results, loading: false, countryInfo: "" })
   }
 
   handleClick = (e, data) => {
     // access to e.target here
     console.log(e.target.value, data)
+    this.setState({
+      countries: this.state.countries,
+      loading: false,
+      countryInfo: data
+    })
   }
 
   render() {
     return (
       <div>
-        {this.state.loading || !this.state.countries ? (
+        {this.state.loading && !this.state.countries ? (
           <div>Loading...</div>
+        ) : this.state.countryInfo ? (
+          <div>
+            <div>countryInfo</div>
+            <CountryInfo country={this.state.countryInfo} />
+          </div>
         ) : (
           <div className="container">
             <Table striped bordered hover>
