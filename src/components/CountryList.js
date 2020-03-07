@@ -35,7 +35,7 @@ class CountryList extends Component {
           <div>Loading...</div>
         ) : this.state.countryInfo ? (
           <div>
-            <div>countryInfo</div>
+            <h1>Country name: {this.state.countryInfo} (ISO standard)</h1>
             <CountryInfo country={this.state.countryInfo} />
           </div>
         ) : (
