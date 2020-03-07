@@ -4,22 +4,35 @@ require('dotenv').config()
 class CountryList extends Component {
     constructor(props) {
         super(props);
-        this.state = { country: [] }
+        this.state = { countries: [] }
     }
     
-    // componentDidMount() {
-    //     fetch("/api/parser")
-    //       .then((res) => res.json())
-    //       .then((res) => this.setState({ country: res })
-    // }
+    componentDidMount() {
+        fetch(process.env.REACT_APP_API_URL+process.env.REACT_APP_API_KEY)
+          .then((res) => res.json())
+          .then((res) => this.setState({ countries: res }))
+          .catch(err => console.log(`Can't fetch countries: {err}`))
+    }
 
     render() { 
         return (
-            <div>
-                <div>Hello from Country List</div>
-                <h1>{process.env.REACT_APP_API_URL}</h1>
-                <h1>{process.env.REACT_APP_API_KEY}</h1>
-            </div>
+            <table>
+                <head>
+                    <tr>
+                        <td>iso code</td>
+                        <td>Country</td>
+                    </tr>
+                </head>
+                <tbody>
+                    {this.state.countries.results &&
+                    this.state.countries.results.map((country, i) => (
+                        <tr key={country.isocode}>
+                            <td>{country.isocode}</td>
+                            <td>{country.country}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
         );
     }
 }
