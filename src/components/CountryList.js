@@ -17,6 +17,11 @@ class CountryList extends Component {
     this.setState({ countries: data.results, loading: false })
   }
 
+  handleClick = (e, data) => {
+    // access to e.target here
+    console.log(e.target.value, data)
+  }
+
   render() {
     return (
       <div>
@@ -34,8 +39,18 @@ class CountryList extends Component {
               <tbody>
                 {this.state.countries.map((country, i) => (
                   <tr key={country.isocode}>
-                    <td>{country.isocode}</td>
-                    <td>{country.country}</td>
+                    <td
+                      value={country.isocode}
+                      onClick={(e) => this.handleClick(e, country.isocode)}
+                    >
+                      {country.isocode}
+                    </td>
+                    <td
+                      value={country.isocode}
+                      onClick={(e) => this.handleClick(e, country.isocode)}
+                    >
+                      {country.country}
+                    </td>
                   </tr>
                 ))}
               </tbody>
