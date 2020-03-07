@@ -17,21 +17,17 @@ class CountryList extends Component {
     render() { 
         return (
             <table>
-                <head>
-                    <tr>
-                        <td>iso code</td>
-                        <td>Country</td>
+                <tr>
+                    <th>ISO code</th>
+                    <th>Country</th>
+                </tr>
+                {this.state.countries.results &&
+                this.state.countries.results.map((country, i) => (
+                    <tr key={country.isocode}>
+                        <td>{country.isocode}</td>
+                        <td>{country.country}</td>
                     </tr>
-                </head>
-                <tbody>
-                    {this.state.countries.results &&
-                    this.state.countries.results.map((country, i) => (
-                        <tr key={country.isocode}>
-                            <td>{country.isocode}</td>
-                            <td>{country.country}</td>
-                        </tr>
-                    ))}
-                </tbody>
+                ))}
             </table>
         );
     }
