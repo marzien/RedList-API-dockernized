@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Table } from "react-bootstrap"
 import CountryInfo from "./CountryInfo"
-require("dotenv").config()
 
 class CountryList extends Component {
   constructor(props) {
@@ -19,8 +18,6 @@ class CountryList extends Component {
   }
 
   handleClick = (e, data) => {
-    // access to e.target here
-    console.log(e.target.value, data)
     this.setState({
       countries: this.state.countries,
       loading: false,
