@@ -15,16 +15,18 @@ class CountryInfo extends Component {
       process.env.REACT_APP_API_KEY
     const response = await fetch(speciesUrl)
     const data = await response.json()
-    // console.log(data)
     this.setState({ species: data.result, loading: false })
   }
 
   render() {
-    console.log(this.state.species)
+    let criticallyEndangered = this.state.species.filter((animal) => {
+      return animal.category === "CR"
+      // TODO: fetch conservation measures
+      // /api/v3/measures/species/name/:name/region/:region_identifier?token='YOUR TOKEN'
+    })
     return (
-      //   <div>test</div>
       <div>
-        {this.state.loading && !this.state.species ? (
+        {this.state.loading || !this.state.species ? (
           <div>Loading...</div>
         ) : (
           <div className="container">
@@ -36,10 +38,10 @@ class CountryInfo extends Component {
                 </tr>
               </thead>
               <tbody>
-                {this.state.species.map((country, i) => (
-                  <tr key={country.scientific_name}>
-                    <td>{country.scientific_name}</td>
-                    <td>{country.category}</td>
+                {criticallyEndangered.map((animal, i) => (
+                  <tr key={animal.scientific_name}>
+                    <td>{animal.scientific_name}</td>
+                    <td>{animal.category}</td>
                   </tr>
                 ))}
               </tbody>
