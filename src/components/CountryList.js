@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
+import { Table } from "react-bootstrap"
 require("dotenv").config()
 
 class CountryList extends Component {
@@ -16,19 +18,25 @@ class CountryList extends Component {
 
   render() {
     return (
-      <table>
-        <tr>
-          <th>ISO code</th>
-          <th>Country</th>
-        </tr>
-        {this.state.countries.results &&
-          this.state.countries.results.map((country, i) => (
-            <tr key={country.isocode}>
-              <td>{country.isocode}</td>
-              <td>{country.country}</td>
+      <div className="container">
+        <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th>ISO code</th>
+              <th>Country</th>
             </tr>
-          ))}
-      </table>
+          </thead>
+          <tbody>
+            {this.state.countries.results &&
+              this.state.countries.results.map((country, i) => (
+                <tr key={country.isocode}>
+                  <td>{country.isocode}</td>
+                  <td>{country.country}</td>
+                </tr>
+              ))}
+          </tbody>
+        </Table>
+      </div>
     )
   }
 }
