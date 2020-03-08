@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap"
 class CountryInfo extends Component {
   constructor(props) {
     super(props)
-    this.state = { species: [], loading: true, conservation: [] }
+    this.state = { species: [], loading: true, CRresult: [] }
   }
 
   async componentDidMount() {
@@ -15,7 +15,7 @@ class CountryInfo extends Component {
       process.env.REACT_APP_API_KEY
     const response = await fetch(speciesUrl)
     const data = await response.json()
-    this.setState({ species: data.result, loading: true, conservation: [] })
+    this.setState({ species: data.result, loading: true, CRresult: [] })
   }
 
   async componentDidUpdate(previousProps, previousState) {
@@ -23,7 +23,7 @@ class CountryInfo extends Component {
       return animal.category === "CR"
     })
 
-    let resArr = Promise.all(
+    let CRArr = Promise.all(
       criticallyEndangered.map(async (animal) => {
         const conservationUrl =
           process.env.REACT_APP_API_CONSERV_URL +
@@ -34,29 +34,30 @@ class CountryInfo extends Component {
         const response = await fetch(conservationUrl)
         const data = await response.json()
 
-        return data.result
+        return {
+          name: animal.scientific_name,
+          conservation: data.result,
+          category: animal.category
+        }
       })
     )
       .then((data) => {
         return data
       })
-      .catch((err) => console.log(`ERROR: Can't get conservation data: {err}`))
+      .catch((err) => console.log(`ERROR: Can't get conservation data: ${err}`))
 
-    resArr.then((conservationCR) => {
-      if (previousState.conservation !== this.state.conservation) {
+    CRArr.then((CRdata) => {
+      if (previousState.CRresult !== this.state.CRresult) {
         this.setState({
           species: this.state.species,
           loading: false,
-          conservation: conservationCR
+          CRresult: CRdata
         })
       }
-    })
+    }).catch((err) => console.log(`ERROR: Can't update state: ${err}`))
   }
 
   render() {
-    let criticallyEndangeredTemp = this.state.species.filter((animal) => {
-      return animal.category === "CR"
-    })
     return (
       <div>
         {this.state.loading || !this.state.species ? (
@@ -72,11 +73,17 @@ class CountryInfo extends Component {
                 </tr>
               </thead>
               <tbody>
-                {criticallyEndangeredTemp.map((animal, i) => (
-                  <tr key={animal.scientific_name}>
-                    <td>{animal.scientific_name}</td>
-                    <td>{animal.category}</td>
-                    <td>---</td>
+                {this.state.CRresult.map((CRanimal, i) => (
+                  <tr key={CRanimal.name}>
+                    <td>{CRanimal.name}</td>
+                    <td>{CRanimal.category}</td>
+                    <td>
+                      {CRanimal.conservation.map((cons, i) => (
+                        <p key={cons.code}>
+                          {cons.code}: {cons.title}
+                        </p>
+                      ))}
+                    </td>
                   </tr>
                 ))}
               </tbody>
