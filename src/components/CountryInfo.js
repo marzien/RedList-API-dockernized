@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap"
 class CountryInfo extends Component {
   constructor(props) {
     super(props)
-    this.state = { species: [], loading: true, criticallyEndangered: {} }
+    this.state = { species: [], loading: true, conservation: [] }
   }
 
   async componentDidMount() {
@@ -15,33 +15,42 @@ class CountryInfo extends Component {
       process.env.REACT_APP_API_KEY
     const response = await fetch(speciesUrl)
     const data = await response.json()
-    this.setState({ species: data.result, loading: true, criticallyEndangered: {} })
+    this.setState({ species: data.result, loading: true, conservation: [] })
   }
 
-  async componentDidUpdate() {
+  async componentDidUpdate(previousProps, previousState) {
     let criticallyEndangered = this.state.species.filter((animal) => {
       return animal.category === "CR"
     })
 
-    let Arr = []
-    criticallyEndangered.map(async (animal) => {
-      const conservationUrl =
-        process.env.REACT_APP_API_CONSERV_URL +
-        animal.taxonid +
-        "?token=" +
-        process.env.REACT_APP_API_KEY
+    let resArr = Promise.all(
+      criticallyEndangered.map(async (animal) => {
+        const conservationUrl =
+          process.env.REACT_APP_API_CONSERV_URL +
+          animal.taxonid +
+          "?token=" +
+          process.env.REACT_APP_API_KEY
 
-      const response = await fetch(conservationUrl)
-      const data = await response.json()
+        const response = await fetch(conservationUrl)
+        const data = await response.json()
 
-      Arr.push(data.result)
+        return data.result
+      })
+    )
+      .then((data) => {
+        return data
+      })
+      .catch((err) => console.log(`ERROR: Can't get conservation data: {err}`))
+
+    resArr.then((conservationCR) => {
+      if (previousState.conservation !== this.state.conservation) {
+        this.setState({
+          species: this.state.species,
+          loading: false,
+          conservation: conservationCR
+        })
+      }
     })
-    // this.setState({
-    //   species: this.state.species,
-    //   loading: false,
-    //   criticallyEndangered: Arr
-    // })
-    console.log(Arr)
   }
 
   render() {
@@ -59,6 +68,7 @@ class CountryInfo extends Component {
                 <tr>
                   <th>Scientific Name</th>
                   <th>Category</th>
+                  <th>Conservation</th>
                 </tr>
               </thead>
               <tbody>
@@ -66,6 +76,7 @@ class CountryInfo extends Component {
                   <tr key={animal.scientific_name}>
                     <td>{animal.scientific_name}</td>
                     <td>{animal.category}</td>
+                    <td>---</td>
                   </tr>
                 ))}
               </tbody>
