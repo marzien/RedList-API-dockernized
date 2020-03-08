@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap"
 class CountryInfo extends Component {
   constructor(props) {
     super(props)
-    this.state = { species: [], loading: false }
+    this.state = { species: [], loading: true, criticallyEndangered: {} }
   }
 
   async componentDidMount() {
@@ -15,14 +15,38 @@ class CountryInfo extends Component {
       process.env.REACT_APP_API_KEY
     const response = await fetch(speciesUrl)
     const data = await response.json()
-    this.setState({ species: data.result, loading: false })
+    this.setState({ species: data.result, loading: true, criticallyEndangered: {} })
+  }
+
+  async componentDidUpdate() {
+    let criticallyEndangered = this.state.species.filter((animal) => {
+      return animal.category === "CR"
+    })
+
+    let Arr = []
+    criticallyEndangered.map(async (animal) => {
+      const conservationUrl =
+        process.env.REACT_APP_API_CONSERV_URL +
+        animal.taxonid +
+        "?token=" +
+        process.env.REACT_APP_API_KEY
+
+      const response = await fetch(conservationUrl)
+      const data = await response.json()
+
+      Arr.push(data.result)
+    })
+    // this.setState({
+    //   species: this.state.species,
+    //   loading: false,
+    //   criticallyEndangered: Arr
+    // })
+    console.log(Arr)
   }
 
   render() {
-    let criticallyEndangered = this.state.species.filter((animal) => {
+    let criticallyEndangeredTemp = this.state.species.filter((animal) => {
       return animal.category === "CR"
-      // TODO: fetch conservation measures
-      // /api/v3/measures/species/name/:name/region/:region_identifier?token='YOUR TOKEN'
     })
     return (
       <div>
@@ -38,7 +62,7 @@ class CountryInfo extends Component {
                 </tr>
               </thead>
               <tbody>
-                {criticallyEndangered.map((animal, i) => (
+                {criticallyEndangeredTemp.map((animal, i) => (
                   <tr key={animal.scientific_name}>
                     <td>{animal.scientific_name}</td>
                     <td>{animal.category}</td>
