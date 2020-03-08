@@ -10,9 +10,9 @@ class CountryList extends Component {
   }
 
   async componentDidMount() {
-    const response = await fetch(
+    const countriesUrl =
       process.env.REACT_APP_API_URL + process.env.REACT_APP_API_KEY
-    )
+    const response = await fetch(countriesUrl)
     const data = await response.json()
     this.setState({ countries: data.results, loading: false, countryInfo: "" })
   }
