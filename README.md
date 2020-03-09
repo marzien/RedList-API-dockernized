@@ -7,7 +7,7 @@ npm install
 # Run the React client
 npm start
 
-# Client runson http://localhost:3000
+# Client runs on http://localhost:3000
 ```
 
 ##
@@ -24,7 +24,7 @@ Project should have globar variable file `.env` with content:
 
 `REACT_APP_API_COMPGROUP_URL=http://apiv3.iucnredlist.org/api/v3/comp-group/getspecies/`
 
-# Run docker image
+## Docker image
 
 Fire up container:
 
