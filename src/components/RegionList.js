@@ -3,11 +3,18 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { Table, Button } from "react-bootstrap"
 import RegionInfo from "./RegionInfo"
 import CriticallyEndagered from "./CriticallyEndangered"
+import Mammal from "./Mammal"
 
 class CountryList extends Component {
   constructor(props) {
     super(props)
-    this.state = { regions: null, loading: true, regionInfo: "" }
+    this.state = {
+      regions: null,
+      loading: true,
+      region: "",
+      regionEndangered: "",
+      regionMammal: ""
+    }
   }
 
   async componentDidMount() {
@@ -18,8 +25,9 @@ class CountryList extends Component {
     this.setState({
       regions: data.results,
       loading: false,
-      regionInfo: "",
-      endangered: ""
+      region: "",
+      regionEndangered: "",
+      regionMammal: ""
     })
   }
 
@@ -27,8 +35,9 @@ class CountryList extends Component {
     this.setState({
       regions: this.state.regions,
       loading: false,
-      regionInfo: data,
-      endangered: ""
+      region: data,
+      regionEndangered: "",
+      regionMammal: ""
     })
   }
 
@@ -36,8 +45,19 @@ class CountryList extends Component {
     this.setState({
       regions: this.state.regions,
       loading: false,
-      regionInfo: "",
-      endangered: data
+      region: "",
+      regionEndangered: data,
+      regionMammal: ""
+    })
+  }
+
+  handleClickMammals = (e, data) => {
+    this.setState({
+      regions: this.state.regions,
+      loading: false,
+      region: "",
+      regionEndangered: "",
+      regionMammal: data
     })
   }
 
@@ -46,15 +66,20 @@ class CountryList extends Component {
       <div>
         {this.state.loading && !this.state.regions ? (
           <div>Loading...</div>
-        ) : this.state.regionInfo ? (
+        ) : this.state.region ? (
           <div>
-            <h1>Region name: {this.state.regionInfo} (ISO standard)</h1>
-            <RegionInfo region={this.state.regionInfo} />
+            <h1>Region name: {this.state.region}</h1>
+            <RegionInfo region={this.state.region} />
           </div>
-        ) : this.state.endangered ? (
+        ) : this.state.regionEndangered ? (
           <div>
-            <h1>Region name: {this.state.regionInfo} (ISO standard)</h1>
-            <CriticallyEndagered region={this.state.endangered} />
+            <h1>Region name: {this.state.regionEndangered}</h1>
+            <CriticallyEndagered region={this.state.regionEndangered} />
+          </div>
+        ) : this.state.regionMammal ? (
+          <div>
+            <h1>Region name: {this.state.regionMammal}</h1>
+            <Mammal region={this.state.regionMammal} />
           </div>
         ) : (
           <div className="container">
@@ -94,7 +119,14 @@ class CountryList extends Component {
                       </Button>
                     </td>
                     <td>
-                      <Button variant="outline-danger" size="sm">
+                      <Button
+                        variant="outline-danger"
+                        size="sm"
+                        value={regions.indentifier}
+                        onClick={(e) =>
+                          this.handleClickMammals(e, regions.identifier)
+                        }
+                      >
                         Species
                       </Button>
                     </td>
