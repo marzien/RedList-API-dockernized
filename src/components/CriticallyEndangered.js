@@ -62,7 +62,12 @@ class CriticallyEndangered extends Component {
     return (
       <div>
         {this.state.loading || !this.state.species ? (
-          <div>Loading...</div>
+          <div>
+            <div className="spinner-border" role="status">
+              <span className="sr-only">Loading...</span>
+            </div>
+            <div>Loading...</div>
+          </div>
         ) : (
           <div className="container">
             <Table striped bordered hover>

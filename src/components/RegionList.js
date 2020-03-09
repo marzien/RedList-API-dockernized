@@ -65,7 +65,12 @@ class CountryList extends Component {
     return (
       <div>
         {this.state.loading && !this.state.regions ? (
-          <div>Loading...</div>
+          <div>
+            <div className="spinner-border" role="status">
+              <span className="sr-only">Loading...</span>
+            </div>
+            <div>Loading...</div>
+          </div>
         ) : this.state.region ? (
           <div>
             <h1>Region name: {this.state.region}</h1>
