@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Table } from "react-bootstrap"
 
 class Mammal extends Component {
   constructor(props) {
@@ -49,11 +50,28 @@ class Mammal extends Component {
   render() {
     return (
       <div>
-        {this.state.mammals.map((mammal, i) => (
-          <li key={i}>
-            {i}: {mammal.scientific_name}
-          </li>
-        ))}
+        {this.state.loading || !this.state.mammals ? (
+          <div>Loading...</div>
+        ) : (
+          <div className="container">
+            <Table striped bordered hover>
+              <thead>
+                <tr>
+                  <th>Scientific Name</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+              <tbody>
+                {this.state.mammals.map((mammal) => (
+                  <tr key={mammal.taxonid}>
+                    <td>{mammal.scientific_name}</td>
+                    <td>{mammal.category}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </Table>
+          </div>
+        )}
       </div>
     )
   }
