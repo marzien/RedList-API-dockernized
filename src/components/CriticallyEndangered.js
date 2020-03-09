@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Table } from "react-bootstrap"
 
-class CountryInfo extends Component {
+class CriticallyEndangered extends Component {
   constructor(props) {
     super(props)
     this.state = { species: [], loading: true, CRresult: [] }
@@ -10,7 +10,9 @@ class CountryInfo extends Component {
   async componentDidMount() {
     const speciesUrl =
       process.env.REACT_APP_API_SPECIES_URL +
-      this.props.country +
+      this.props.region +
+      "/page/" +
+      "0" +
       "?token=" +
       process.env.REACT_APP_API_KEY
     const response = await fetch(speciesUrl)
@@ -22,6 +24,7 @@ class CountryInfo extends Component {
     let criticallyEndangered = this.state.species.filter((animal) => {
       return animal.category === "CR"
     })
+    console.log(criticallyEndangered)
 
     let CRArr = Promise.all(
       criticallyEndangered.map(async (animal) => {
@@ -33,7 +36,6 @@ class CountryInfo extends Component {
 
         const response = await fetch(conservationUrl)
         const data = await response.json()
-
         return {
           name: animal.scientific_name,
           conservation: data.result,
@@ -86,6 +88,12 @@ class CountryInfo extends Component {
                     </td>
                   </tr>
                 ))}
+                {/* {this.state.species.map((animal) => (
+                  <tr key={animal.taxonid}>
+                    <td>{animal.scientific_name}</td>
+                    <td>{animal.category}</td>
+                  </tr>
+                ))} */}
               </tbody>
             </Table>
           </div>
@@ -95,4 +103,4 @@ class CountryInfo extends Component {
   }
 }
 
-export default CountryInfo
+export default CriticallyEndangered
