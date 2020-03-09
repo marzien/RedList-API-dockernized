@@ -24,7 +24,6 @@ class CriticallyEndangered extends Component {
     let criticallyEndangered = this.state.species.filter((animal) => {
       return animal.category === "CR"
     })
-    console.log(criticallyEndangered)
 
     let CRArr = Promise.all(
       criticallyEndangered.map(async (animal) => {
@@ -88,12 +87,6 @@ class CriticallyEndangered extends Component {
                     </td>
                   </tr>
                 ))}
-                {/* {this.state.species.map((animal) => (
-                  <tr key={animal.taxonid}>
-                    <td>{animal.scientific_name}</td>
-                    <td>{animal.category}</td>
-                  </tr>
-                ))} */}
               </tbody>
             </Table>
           </div>

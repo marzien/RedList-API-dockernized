@@ -33,7 +33,6 @@ class CountryList extends Component {
   }
 
   handleClickEndangered = (e, data) => {
-    console.log(data)
     this.setState({
       regions: this.state.regions,
       loading: false,
