@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Table } from "react-bootstrap"
+import Spinner from "./Spinner"
 
 class CountryInfo extends Component {
   constructor(props) {
@@ -24,12 +25,7 @@ class CountryInfo extends Component {
     return (
       <div>
         {this.state.loading || !this.state.species ? (
-          <div>
-            <div className="spinner-border" role="status">
-              <span className="sr-only">Loading...</span>
-            </div>
-            <div>Loading...</div>
-          </div>
+          <Spinner />
         ) : (
           <div className="container">
             <Table striped bordered hover>

@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Table } from "react-bootstrap"
+import Spinner from "./Spinner"
 
 class Mammal extends Component {
   constructor(props) {
@@ -51,12 +52,7 @@ class Mammal extends Component {
     return (
       <div>
         {this.state.loading || !this.state.mammals ? (
-          <div>
-            <div className="spinner-border" role="status">
-              <span className="sr-only">Loading...</span>
-            </div>
-            <div>Loading...</div>
-          </div>
+          <Spinner />
         ) : (
           <div className="container">
             <Table striped bordered hover>

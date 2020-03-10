@@ -4,6 +4,7 @@ import { Table, Button } from "react-bootstrap"
 import RegionInfo from "./RegionInfo"
 import CriticallyEndagered from "./CriticallyEndangered"
 import Mammal from "./Mammal"
+import Spinner from "./Spinner"
 
 class CountryList extends Component {
   constructor(props) {
@@ -65,12 +66,7 @@ class CountryList extends Component {
     return (
       <div>
         {this.state.loading && !this.state.regions ? (
-          <div>
-            <div className="spinner-border" role="status">
-              <span className="sr-only">Loading...</span>
-            </div>
-            <div>Loading...</div>
-          </div>
+          <Spinner />
         ) : this.state.region ? (
           <div>
             <h1>Region name: {this.state.region}</h1>
