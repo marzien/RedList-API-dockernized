@@ -49,8 +49,10 @@ class Mammal extends Component {
     const { loading, mammals } = this.state
     return (
       <div>
-        {loading || !mammals ? (
+        {loading ? (
           <Spinner />
+        ) : !mammals.length ? (
+          <div>No Mammals!</div>
         ) : (
           <div className="container">
             <Table striped bordered hover>
