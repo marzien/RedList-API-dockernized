@@ -49,9 +49,10 @@ class Mammal extends Component {
   }
 
   render() {
+    const { loading, mammals } = this.state
     return (
       <div>
-        {this.state.loading || !this.state.mammals ? (
+        {loading || !mammals ? (
           <Spinner />
         ) : (
           <div className="container">
@@ -63,7 +64,7 @@ class Mammal extends Component {
                 </tr>
               </thead>
               <tbody>
-                {this.state.mammals.map((mammal) => (
+                {mammals.map((mammal) => (
                   <tr key={mammal.taxonid}>
                     <td>{mammal.scientific_name}</td>
                     <td>{mammal.category}</td>

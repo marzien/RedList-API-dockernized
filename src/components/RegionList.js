@@ -63,24 +63,25 @@ class CountryList extends Component {
   }
 
   render() {
+    const { loading, regions, region, regionEndangered, regionMammal } = this.state
     return (
       <div>
-        {this.state.loading && !this.state.regions ? (
+        {loading && !regions ? (
           <Spinner />
-        ) : this.state.region ? (
+        ) : region ? (
           <div>
-            <h1>Region name: {this.state.region}</h1>
-            <RegionInfo region={this.state.region} />
+            <h1>Region name: {region}</h1>
+            <RegionInfo region={region} />
           </div>
-        ) : this.state.regionEndangered ? (
+        ) : regionEndangered ? (
           <div>
-            <h1>Region name: {this.state.regionEndangered}</h1>
-            <CriticallyEndagered region={this.state.regionEndangered} />
+            <h1>Region name: {regionEndangered}</h1>
+            <CriticallyEndagered region={regionEndangered} />
           </div>
-        ) : this.state.regionMammal ? (
+        ) : regionMammal ? (
           <div>
-            <h1>Region name: {this.state.regionMammal}</h1>
-            <Mammal region={this.state.regionMammal} />
+            <h1>Region name: {regionMammal}</h1>
+            <Mammal region={regionMammal} />
           </div>
         ) : (
           <div className="container">
@@ -94,7 +95,7 @@ class CountryList extends Component {
                 </tr>
               </thead>
               <tbody>
-                {this.state.regions.map((regions, i) => (
+                {regions.map((regions, i) => (
                   <tr key={regions.identifier}>
                     <td>{regions.name}</td>
                     <td>

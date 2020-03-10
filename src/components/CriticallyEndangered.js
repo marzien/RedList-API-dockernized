@@ -60,9 +60,10 @@ class CriticallyEndangered extends Component {
   }
 
   render() {
+    const { loading, species, CRresult } = this.state
     return (
       <div>
-        {this.state.loading || !this.state.species ? (
+        {loading || !species ? (
           <Spinner />
         ) : (
           <div className="container">
@@ -75,7 +76,7 @@ class CriticallyEndangered extends Component {
                 </tr>
               </thead>
               <tbody>
-                {this.state.CRresult.map((CRanimal, i) => (
+                {CRresult.map((CRanimal, i) => (
                   <tr key={CRanimal.name}>
                     <td>{CRanimal.name}</td>
                     <td>{CRanimal.category}</td>

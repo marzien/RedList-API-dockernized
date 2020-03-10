@@ -22,9 +22,10 @@ class CountryInfo extends Component {
   }
 
   render() {
+    const { loading, species } = this.state
     return (
       <div>
-        {this.state.loading || !this.state.species ? (
+        {loading || !species ? (
           <Spinner />
         ) : (
           <div className="container">
@@ -36,7 +37,7 @@ class CountryInfo extends Component {
                 </tr>
               </thead>
               <tbody>
-                {this.state.species.map((animal) => (
+                {species.map((animal) => (
                   <tr key={animal.taxonid}>
                     <td>{animal.scientific_name}</td>
                     <td>{animal.category}</td>
