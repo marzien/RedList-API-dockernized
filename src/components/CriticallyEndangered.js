@@ -48,7 +48,7 @@ class CriticallyEndangered extends Component {
       .catch((err) => console.log(`ERROR: Can't get conservation data: ${err}`))
 
     CRArr.then((CRdata) => {
-      if (previousState.CRresult !== this.state.CRresult) {
+      if (previousState.loading === this.state.loading) {
         this.setState({
           species: this.state.species,
           loading: false,
