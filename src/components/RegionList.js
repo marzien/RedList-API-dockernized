@@ -5,6 +5,7 @@ import RegionInfo from "./RegionInfo"
 import CriticallyEndagered from "./CriticallyEndangered"
 import Mammal from "./Mammal"
 import Spinner from "./Spinner"
+import axios from "../axios/index"
 
 class CountryList extends Component {
   constructor(props) {
@@ -18,18 +19,20 @@ class CountryList extends Component {
     }
   }
 
-  async componentDidMount() {
-    const regionsUrl =
-      process.env.REACT_APP_API_REGIONS_URL + process.env.REACT_APP_API_KEY
-    const response = await fetch(regionsUrl)
-    const data = await response.json()
-    this.setState({
-      regions: data.results,
-      loading: false,
-      region: "",
-      regionEndangered: "",
-      regionMammal: ""
-    })
+  componentDidMount() {
+    const API_KEY = process.env.REACT_APP_API_KEY
+    axios
+      .get(`region/list?token=${API_KEY}`)
+      .then((res) => {
+        this.setState({
+          regions: res.data.results,
+          loading: false,
+          region: "",
+          regionEndangered: "",
+          regionMammal: ""
+        })
+      })
+      .catch((err) => `ERROR: can't get regions ${err}`)
   }
 
   handleClickAll = (e, data) => {

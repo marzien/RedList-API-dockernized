@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Table } from "react-bootstrap"
 import Spinner from "./Spinner"
+import axios from "../axios/index"
 
 class Mammal extends Component {
   constructor(props) {
@@ -8,28 +9,24 @@ class Mammal extends Component {
     this.state = { mammals: [], loading: true }
   }
 
-  async componentDidMount() {
-    let getMammalIDs = async () => {
-      const mammalsUrl =
-        process.env.REACT_APP_API_COMPGROUP_URL +
-        "mammals?token=" +
-        process.env.REACT_APP_API_KEY
-      const mammalResponse = await fetch(mammalsUrl)
-      const mammalData = await mammalResponse.json()
-      return mammalData.result.map((mammal) => mammal.taxonid)
+  componentDidMount() {
+    const API_KEY = process.env.REACT_APP_API_KEY
+    let getMammalIDs = () => {
+      return axios
+        .get(`comp-group/getspecies/mammals?token=${API_KEY}`)
+        .then((res) => {
+          return res.data.result.map((mammal) => mammal.taxonid)
+        })
+        .catch((err) => `ERROR: can't get mammals ids ${err}`)
     }
 
-    let getSpecies = async () => {
-      const speciesUrl =
-        process.env.REACT_APP_API_SPECIES_URL +
-        this.props.region +
-        "/page/" +
-        "0" +
-        "?token=" +
-        process.env.REACT_APP_API_KEY
-      const response = await fetch(speciesUrl)
-      const speciesData = await response.json()
-      return speciesData.result
+    let getSpecies = () => {
+      return axios
+        .get(`species/region/${this.props.region}/page/0/?token=${API_KEY}`)
+        .then((res) => {
+          return res.data.result
+        })
+        .catch((err) => `ERROR: can't get species by region ${err}`)
     }
 
     Promise.all([getMammalIDs(), getSpecies()])
@@ -45,7 +42,7 @@ class Mammal extends Component {
           loading: false
         })
       })
-      .catch((err) => console.log(`ERROR: ${err}`))
+      .catch((err) => console.log(`ERROR: can't filer only mammals ${err}`))
   }
 
   render() {

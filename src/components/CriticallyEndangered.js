@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Table } from "react-bootstrap"
 import Spinner from "./Spinner"
+import axios from "../axios/index"
 
 class CriticallyEndangered extends Component {
   constructor(props) {
@@ -8,39 +9,37 @@ class CriticallyEndangered extends Component {
     this.state = { species: [], loading: true, CRresult: [] }
   }
 
-  async componentDidMount() {
-    const speciesUrl =
-      process.env.REACT_APP_API_SPECIES_URL +
-      this.props.region +
-      "/page/" +
-      "0" +
-      "?token=" +
-      process.env.REACT_APP_API_KEY
-    const response = await fetch(speciesUrl)
-    const data = await response.json()
-    this.setState({ species: data.result, loading: true, CRresult: [] })
+  componentDidMount() {
+    const API_KEY = process.env.REACT_APP_API_KEY
+    axios
+      .get(`species/region/${this.props.region}/page/0/?token=${API_KEY}`)
+      .then((res) => {
+        this.setState({ species: res.data.result, loading: true, CRresult: [] })
+      })
+      .catch((err) => `ERROR: can't get regions ${err}`)
   }
 
-  async componentDidUpdate(previousProps, previousState) {
+  componentDidUpdate(previousProps, previousState) {
+    const API_KEY = process.env.REACT_APP_API_KEY
     let criticallyEndangered = this.state.species.filter((animal) => {
       return animal.category === "CR"
     })
 
     let CRArr = Promise.all(
       criticallyEndangered.map(async (animal) => {
-        const conservationUrl =
-          process.env.REACT_APP_API_CONSERV_URL +
-          animal.taxonid +
-          "?token=" +
-          process.env.REACT_APP_API_KEY
-
-        const response = await fetch(conservationUrl)
-        const data = await response.json()
-        return {
-          name: animal.scientific_name,
-          conservation: data.result,
-          category: animal.category
-        }
+        return axios
+          .get(`measures/species/id/${animal.taxonid}?token=${API_KEY}`)
+          .then((res) => {
+            return {
+              name: animal.scientific_name,
+              conservation: res.data.result,
+              category: animal.category
+            }
+          })
+          .catch(
+            (err) =>
+              `ERROR: Can't get animal with ID: ${animal.taxonid} conservation: ${err}`
+          )
       })
     )
       .then((data) => {
