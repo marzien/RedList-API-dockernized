@@ -5,7 +5,7 @@ import Spinner from "./Spinner"
 class CountryInfo extends Component {
   constructor(props) {
     super(props)
-    this.state = { species: [], loading: true, CRresult: [] }
+    this.state = { species: [], loading: true }
   }
 
   async componentDidMount() {
@@ -18,7 +18,7 @@ class CountryInfo extends Component {
       process.env.REACT_APP_API_KEY
     const response = await fetch(speciesUrl)
     const data = await response.json()
-    this.setState({ species: data.result, loading: false, CRresult: [] })
+    this.setState({ species: data.result, loading: false })
   }
 
   render() {
