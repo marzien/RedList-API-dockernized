@@ -7,3 +7,8 @@ test("renders page header correctly", () => {
   const linkElement = getByText(/IUCD RedList API/i)
   expect(linkElement).toBeInTheDocument()
 })
+
+test("App snapshot", () => {
+  const { container } = render(<App />)
+  expect(container.firstChild).toMatchSnapshot()
+})

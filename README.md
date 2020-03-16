@@ -23,3 +23,11 @@ Fire up container:
 ```
 docker-compose up
 ```
+
+## Testing
+
+Run all tests:
+
+```
+npm test
+```

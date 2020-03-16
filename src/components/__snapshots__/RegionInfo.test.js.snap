@@ -1,0 +1,6442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegionInfo snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <table
+      class="table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr>
+          <th>
+            Scientific Name
+          </th>
+          <th>
+            Category
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Aciagrion rarum
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Austroglanis barnardi
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Austroglanis gilli
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Austroglanis sclateri
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus capensis
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus calidus
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus erubescens
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius hospes
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus serra
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius treurensis
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus trevelyani
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius brevipinnis
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius motebensis
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bellamya monardi
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Biomphalaria salinarum
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bulinus crystallinus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion mourae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chetia brevis
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chiloglanis bifurcus
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorolestes draconicus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorolestes apricans
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Croilia mossambica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ecchlorolestes nylephtha
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ecchlorolestes peringueyi
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleotris melanosoma
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Galaxias zebratus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo seeberi
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Spesbona angusta
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Myxus capensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Neritina natalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Opsaridium peringueyi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum rubens
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pila occidentalis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus quathlambae
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus asper
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus tenuis
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sandelia bainsii
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sandelia capensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Serranochromis meridianus
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Silhouettea sibayi
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Urothemis luciana
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clypeolum owenianum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Metacnemis valida
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion newtoni
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceratogomphus triceraticus
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cleopatra ferruginea
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aponogeton azureus
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Dintera pterocaulis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chamaegigas intrepidus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Africallagma cuneistigma
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Micromacromia flava
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Onychogomphus kitchingmani
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Paragomphus cataractae
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Paragomphus zambeziensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Parazyxomma flavicans
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion vumbaense
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aciagrion africanum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aciagrion gracile
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aciagrion heterostictum
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aciagrion steeleae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Acisoma trifidum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pinheyschna rileyi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Afroaeschna scotias
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aethiothemis bequaerti
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aethiothemis solitaria
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aethriamanta rezia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Africallagma glaucum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Africallagma sinuatum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Africallagma subtile
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Africallagma vaginale
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis exilis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis gratiosa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis pinheyi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis victoria
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anaciaeschna triangulifera
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anax chloromelas
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anax ephippiger
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anax imperator
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anax tristis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Atoconeura biordinata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Azuragrion nigridorsum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Brachythemis lacustris
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Brachythemis leucosticta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Brachythemis wilsoni
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bradinopyga cornuta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion bakeri
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion corallinum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion glabrum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion kordofanicum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion suave
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion whellani
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chalcostephia flavifrons
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Elattoneura cellularis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Allocnemis marshalli
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorocypha consueta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crenigomphus hartmanni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crocothemis divisa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crocothemis erythraea
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crocothemis sanguinolenta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crocothemis saxicolor
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Diplacodes deminuta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Diplacodes lefebvrii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Elattoneura glauca
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gomphidia quarrei
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gynacantha manderica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gynacantha nigeriensis
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gynacantha sextans
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gynacantha usambarica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gynacantha vesiculata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gynacantha villosa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hadrothemis camarensis
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hadrothemis defecta
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hadrothemis scabrifrons
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hadrothemis versuta
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Heliaeschna cynthiae
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Heliaeschna trinervulata
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hemistigma albipunctum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ictinogomphus ferox
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ischnura senegalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes amicus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes dissimulans
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes ictericus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes ochraceus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes pallidus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes pinheyi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes plagiatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes tridens
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes uncifer
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestes virgatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestinogomphus angustus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Malgassophlebia bispina
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mesocnemis singularis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Microgomphus nyassicus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Neodythemis preussi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nesciothemis farinosa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Notiothemis jonesi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Notiothemis robertsi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Notogomphus dendrohyrax
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Notogomphus praetorius
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Notogomphus zernyi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zygonoides fuelleborni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Olpogastra lugubris
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum abbotti
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum angustiventre
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum austeni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum brachiale
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum caffrum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum chrysostigma
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum guineense
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum hintzi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum icteromelas
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum julia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum machadoi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum macrostigma
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum microstigma
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum monardi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum saegeri
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum stemmale
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum trinacria
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Palpopleura deceptor
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Palpopleura jucunda
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Palpopleura lucia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Palpopleura portia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pantala flavescens
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Paragomphus cognatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Paragomphus elpidius
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Paragomphus genei
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Paragomphus magnus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Paragomphus sabicus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phaon iridipennis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllogomphus selysi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia aureozona
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia bispina
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia congolica
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia kimminsi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia monoceros
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia picta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Platycypha caligata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Platycypha lacustris
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Porpax risi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Proischnura subfurcata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion acaciae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion assegaii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion coelestis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion commoniae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion gamblesi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion glaucescens
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion hageni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion hamoni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion helenae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion inconspicuum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion kersteni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion kibalense
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion lindicum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion massaicum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion melanicterum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion nubicum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion salisburyense
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion sjoestedti
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion spernatum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion sublacteum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion sudanicum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rhyothemis fenestrina
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rhyothemis semihyalina
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sympetrum fonscolombii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithetrum navasi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tetrathemis polleni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Thermochoria equivocata
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tholymis tillarga
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tramea basilaris
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tramea limbata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis aconita
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis annulata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis arteriosa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis dichroa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis donaldsoni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis dorsalis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis furva
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis grouti
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis hecate
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis kirbyi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis monardi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis nuptialis
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis pluvialis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis pruinata
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis sp. nov. B
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis stictica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis werneri
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Urothemis assignata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Urothemis edwardsii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zygonyx flavicosta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zygonyx natalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zygonyx torridus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zyxomma atlanticum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anax bangweuluensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis aequalis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis brydeni
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Umma femina
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Diastatomma bicolor
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius paludinosus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius bifrenatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius atkinsoni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marcusenius livingstonii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oreochromis andersonii
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Coptodon rendalli
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bagrus orientalis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Brycinus lateralis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pareutropius longifilis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Micropanchax hutereaui
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marcusenius macrolepidotus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius toppini
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius zanzibaricus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius lineomaculatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Syncordulia venator
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nesciothemis fitzgeraldi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorolestes fasciatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion greeni
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion deningi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion inopinatum
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion vaalense
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crenigomphus kavangoensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis ruberrima
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorolestes tessellatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion citricola
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis falcifera
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion caffrum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion furcigerum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Diastatomma soror
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Neurogomphus cocytius
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion fisheri
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ictinogomphus dundoensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorolestes umbratus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zosteraeschna minuscula
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pinheyschna subpupillata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Proischnura rotundipennis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia unifasciata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zygonyx eusebia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion angolense
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Allocnemis leucosticta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Syncordulia gracilis
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorolestes conspicuus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthetrum robustum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis leakeyi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis ruberrima ssp. ruberrima
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Platycypha fitzsimonsi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aethiothemis ellioti
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion katamborae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Onychogomphus rossii
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion makabusiense
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis ruberrima ssp. albifrons
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Elattoneura frenulata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Africallagma sapphirinum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Proischnura polychromatica
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lestinogomphus silkeae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Alestes ansorgii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Brycinus humilis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Micralestes argyrotaenia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rhabdalestes maunensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hemigrammocharax machadoi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hemigrammocharax monardi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nannocharax fasciolaris
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Neolebias lozii
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gilchristella aestuaria
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius amatolicus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius annectens
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius anoplus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius argenteus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clypeobarbus bellcrossi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius breviceps
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius crocodilensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius dorsolineatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus ensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius evansi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus girardi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius greenwoodi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus gulielmi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius gurneyi
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Barbus hondeensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius manicensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius mocoensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius musumbi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius pallidus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius rapax
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus rhinophorus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus rocadasi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus rosae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius roussellei
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius thamalakanensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius wellmani
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo ansorgii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo capensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo lunatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo molybdinus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo rocadasi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo rosae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo rubromaculatus
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo ruddi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo umbratus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus aeneus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus seeberi
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus codringtonii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus kimberleyensis
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus marequensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus natalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus polylepis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Raiamas ansorgii
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Varicorhinus clarkeae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Varicorhinus ensifer
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Varicorhinus latirostris
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeobarbus nelspruitensis
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Varicorhinus pungweensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Varicorhinus varicostoma
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Micropanchax myaposae
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Kneria ansorgii
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Kneria maydelli
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Kneria polli
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Kneria sjolandersi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Parakneria fortuita
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Parakneria marmorata
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Parakneria mossambica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mastacembelus vanderwaali
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Heteromormyrus pauciradiatus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hippopotamyrus pappenheimi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hippopotamyrus szaboi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marcusenius angolensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mormyrus lacerda
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Paramormyrops jacksoni
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Petrocephalus cunganus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Petrocephalus wesselsi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pollimyrus marianne
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chetia brevicauda
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chetia flaviventris
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chetia gracilis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Haplochromis lucullae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oreochromis angolensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oreochromis macrochir
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oreochromis mortimeri
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oreochromis mossambicus
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oreochromis placidus ssp. rovumae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Orthochromis machadoi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pharyngochromis acuticeps
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sargochromis carlottae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sargochromis codringtonii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sargochromis coulteri
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sargochromis giardi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sargochromis greenwoodi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sargochromis mortimeri
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Serranochromis altus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Serranochromis longimanus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Thoracochromis albolabris
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Thoracochromis buysi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tilapia guinasana
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hypseleotris cyprinoides
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Amphilius laticaudatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Doumea angolensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chrysichthys ansorgii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chrysichthys bocagii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clariallabes platyprosopos
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias cavernicola
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chrysichthys hildae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chiloglanis anoterus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chiloglanis emarginatus
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chiloglanis fasciatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chiloglanis paratus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chiloglanis pretoriae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chiloglanis sardinhai
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis laessoei
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis leopardinus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis macrostigma
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis macrostoma
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis thamalakanensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis vanderwaali
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis woosnami
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schilbe angolensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schilbe bocagii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mastacembelus ansorgii
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Barbus sp. nov. 'Banhine'
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Barbus sp. nov. 'Chimanimani'
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius sp. nov. 'waterberg'
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aplocheilichthys sp. nov. 'Rovuma'
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Kneria sp. nov. 'South Africa'
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia brunnea
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia capensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia farquhari
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia gordonensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia nana
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia obtusata
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia ponsonbyi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia stenochorias
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia transvaalensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia trapezoidea
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia vulcanus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pettancylus clifdeni
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pettancylus farquhari
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pettancylus junodi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pettancylus lacustris
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pettancylus natalensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pettancylus victoriensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pettancylus zambesiensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bulinus angolensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gyraulus connollyi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eussoia leptodonta
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gabbiella zambica
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tomichia cawstoni
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tomichia differens
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tomichia natalensis
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tomichia rogersi
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tomichia tristis
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tomichia ventricosa
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tomichia zwellendamensis
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Melanoides victoriae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mutela wistarmorrisi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mutela zambesiensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Coelatura kunenensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cafferia caffer
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pisidium costulosum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pisidium harrisoni
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes brincki
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes calcaratus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes clarus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes dentatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes depressus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes dubius
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes granularis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes kensleyi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes lividus
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes macrobrachii
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes parvicorpus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes parvispina
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes perlatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes sidneyi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes unispinus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes warreni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Potamonautes adeleae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pisidium casertanum
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Melanoides tuberculata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Galba truncatula
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudosuccinea columella
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Allocnemis wittei
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Umma electa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Platycypha crocea
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia contumax
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Onychogomphus seydeli
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Etheria elliptica
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pisidium langleyanum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Radix natalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pisidium reticulatum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Segmentorbis kanisaensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lobogenes michaelis
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pila ovata
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gyraulus costulatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Coelatura mossambicensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pachymelania aurita
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sphaerium incomitatum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Segmentorbis angustus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Neritina pulligera
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cleopatra nsendweensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Africanogyrus coretus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nereina afra
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pachymelania fusca
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Vitta glabrata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Corbicula astartina
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Biomphalaria pfeifferi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bulinus africanus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eupera ferruginea
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lentorbis junodi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Vitta adansoniana
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bulinus reticulatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lanistes ellipticus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bulinus scalaris
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pisidium ovampicum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Septaria tessellaria
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bulinus forskalii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Thiara amarula
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aspatharia pfeifferiana
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Gabbiella kisalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pisidium pirothi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lanistes ovum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Assiminea bifasciata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aspatharia rugifera
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Burnupia caffra
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tympanotonos fuscatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceratophallus natalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Melanoides recticosta
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sphaerium capense
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Septaria borbonica
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eupera ovata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cleopatra elata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias gariepinus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleotris fusca
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anguilla marmorata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Glossogobius giuris
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anguilla bicolor ssp. bicolor
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Macrodiplax cora
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hepsetus odoe
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Odaxothrissa ansorgii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phenacogrammus ansorgii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Channallabes apus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Coptostomabarbus wittei
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pellonula vorax
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enneacampus ansorgii
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pinheyagrion angolicum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Porpax asperipes
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anax congoliath
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis dubia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ceriagrion sakejii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hemicordulia africana
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nesciothemis minor
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aciagrion nodosum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zygonyx speciosus ssp. atritibiae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Agriocnemis forcipata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Phyllomacromia overlaeti
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Diplacodes pumila
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Platycypha rufitibia
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aciagrion zambiense
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Neodythemis klingi
+          </td>
+          <td>
+            NA
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Trithemis anomala
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorocypha wittei
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chlorocypha fabamacula
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rhyothemis mariposa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudagrion draconis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hippichthys heptagonus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mugilogobius mertoni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius brevidorsalis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aplocheilichthys spilauchen
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleotris senegalensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias theodorae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis nigromaculatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius kerstenii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Micropanchax katangae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schilbe intermedius
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hydrocynus vittatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hemichromis elongatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tilapia sparrmanii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Amphilius lentiginosus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Astatotilapia calliptera
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nannocharax macropterus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ctenopoma multispine
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marcusenius altisambesi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias stappersii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Micropanchax johnstoni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias angolensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Serranochromis angusticeps
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius haasianus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius multilineatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Serranochromis macrocephalus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mormyrus longirostris
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chetia welwitschi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis nebulosus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Petrocephalus simus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mormyrops anguilloides
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oreochromis schwebischi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hemigrammocharax multifasciatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius barnardi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias liocephalus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Protopterus amphibius
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sargochromis mellandi
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Varicorhinus steindachneri
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius trimaculatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius kessleri
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Coptodon guineensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleotris daganensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias dumerilii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chiloglanis angolensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias submarginatus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius miolepis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Amphilius natalensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Heterobranchus longifilis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo cylindricus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Micralestes acutidens
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tilapia cabrae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hypsopanchax jubbi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Labeo altivelis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Microctenopoma intermedium
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius macrotaenia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius fasciolatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius lujae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius holotaenia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Clarias ngamensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius eutaenia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pollimyrus castelnaui
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ctenopoma machadoi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis ornatipinnis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Kneria angolensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudocrenilabrus philander
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Stenogobius kenyae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Barbus sp. nov. 'cf. gurneyi'
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tilapia ruweti
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Opsaridium zambezense
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Parauchenoglanis ngamensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius neefi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schilbe yangambianus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Synodontis zambezensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius ansorgii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chrysichthys nigrodigitatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Brycinus imberi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Malapterurus shirensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oreochromis shiranus ssp. chilwae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Microphis brachyurus ssp. aculeatus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Protopterus annectens ssp. brieni
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Serranochromis jallae
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Microphis fluviatilis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anguilla mossambica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Awaous lateristriga
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Awaous aeneofuscus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleotris vittata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Microphis brachyurus ssp. millepunctatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Anguilla bengalensis ssp. labiata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pinheyschna moori
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Diplacodes luminans
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Zygonyx atritibiae
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Chambardia petersi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Platycypha bamptoni
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cyperus sensilis
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lindernia bolusii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Romulea multisulcata
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cyperus macranthus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Drepanocladus hallii
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schoenoplectus pulchellus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Wachendorfia thyrsiflora
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea schelpeana
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Drepanocladus sparsus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aponogeton natalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea burchellii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cyperus sphaerospermus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schoenoplectus muriculatus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aponogeton distachyos
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crinum variabile
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Samolus porosus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea villifolia
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eriocaulon hydrophilum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isoetes capensis
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Utricularia sandersonii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea fenestrata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sesbania brevipedunculata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schoenoplectus decipiens
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea ephippiocarpa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isoetes giessii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lagarosiphon major
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cyperus textilis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cadiscus aquaticus
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Fuirena ecklonii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lobelia quadrisepala
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudalthenia aschersoniana
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crinum paludosum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ranunculus meyeri
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Prionium serratum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isolepis digitata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crassula inanis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sesbania transvaalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Carpha glomerata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rotala fluitans
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Plantago longissima
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aponogeton ranunculiflorus
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea apposita
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crassula aphylla
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eriocaulon schlechteri
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Juncus scabriusculus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pycreus cooperi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lagarosiphon rubellus
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isoetes stephansenii
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Spiloxene aquatica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pennisetum natalense
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isoetes toximontana
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schoenoplectus muricinux
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cotula filifolia
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eriocaulon dregei
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lindernia monroi
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleocharis schlechteri
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Riella capensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isoetes stellenbossiensis
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lobelia limosa
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schoenoplectus paludicola
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Carex clavata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Carex austroafricana
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Wardia hygrometrica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isolepis prolifera
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lindernia wilmsii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oxalis natans
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Colpodium drakensbergense
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isopterygium strangulatum
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cotula myriophylloides
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Moraea stagnalis
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isoetes wormaldii
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Panicum gilvum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isolepis natans
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crassula gemmifera
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oxalis disticha
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Riella purpureospora
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cyanella aquatica
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crinum campanulatum
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oxalis dregei
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Ottelia exserta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pentameris capensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Riella alatospora
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Indigofera venusta
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oxalis uliginosa
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oxalis simplex
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Aponogeton angustifolius
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crassula elatinoides
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Fimbristylis variegata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Wolffiella denticulata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Indigofera filiformis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Indigofera filicaulis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Riella echinospora
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleocharis cubangensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Wolffiella repanda
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crassula tuberella
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crinum crassicaule
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleocharis dregeana
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Juncus capensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Fuirena coerulescens
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Moraea huttonii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oryzidium barnardii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Juncus lomatophyllus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Isoetes transvaalensis
+          </td>
+          <td>
+            NT
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Callitriche bolusii
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Xyris natalensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Villarsia capensis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cotula paludosa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Villarsia goldblattiana
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sesbania macowaniana
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pulicaria scabra
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Oxalis dines
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sphaerothylax algiformis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Limosella inflata
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Callitriche compressa
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Indigofera procumbens
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Romulea aquatica
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Panicum pilgerianum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Inversodicraea warmingiana
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Lagarosiphon verticillifolius
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea unicornis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eleocharis onthitensis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea vera
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Juncus exsertus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Carex subinflata
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Limosella vesiculosa
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bergia anagalloides
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rorippa fluviatilis var. fluviatilis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Laurembergia repens ssp. brachypoda
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cotula nigellifolia var. tenuior
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schoenoplectus litoralis ssp. thermalis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Grammatotheca bergiana var. bergiana
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cotula vulgaris var. vulgaris
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Melasma scabrum var. scabrum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crassula natans var. minus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eriocaulon dregei var. sonderianum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schoenoplectus confusus ssp. natalitius
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cycnium tubulosum ssp. tubulosum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Sphaeranthus peduncularis ssp. peduncularis
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Juncus kraussii ssp. kraussii
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Melasma scabrum var. ovatum
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Crassula natans var. natans
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Juncus dregeanus subsp. dregeanus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Marsilea farinosa ssp. arrecta
+          </td>
+          <td>
+            VU
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Rorippa fluviatilis var. caledonica
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Schoenoplectiella leucantha
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Najas australis
+          </td>
+          <td>
+            DD
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Enteromius cf. eutaenia ‘Southern Africa’
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus burchelli
+          </td>
+          <td>
+            CR
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pseudobarbus burgi
+          </td>
+          <td>
+            EN
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegionList snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <table
+      class="table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr>
+          <th>
+            Region
+          </th>
+          <th>
+            All Species
+          </th>
+          <th>
+            Critically Endangered
+          </th>
+          <th>
+            Only mammals
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Northeastern Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Eastern Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Global
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Western Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Northern Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Central Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Pan-Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Southern Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Mediterranean
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Europe
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
