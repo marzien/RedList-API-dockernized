@@ -3349,6 +3349,14 @@ exports[`RegionInfo snapshot 1`] = `
         </tr>
         <tr>
           <td>
+            Enteromius viviparus
+          </td>
+          <td>
+            LC
+          </td>
+        </tr>
+        <tr>
+          <td>
             Barbus sp. nov. 'Banhine'
           </td>
           <td>
@@ -6277,7 +6285,7 @@ exports[`RegionInfo snapshot 1`] = `
         </tr>
         <tr>
           <td>
-            Schoenoplectus litoralis ssp. thermalis
+            Schoenoplectus litoralis subsp. thermalis
           </td>
           <td>
             LC

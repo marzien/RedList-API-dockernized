@@ -56,35 +56,6 @@ exports[`RegionList snapshot 1`] = `
         </tr>
         <tr>
           <td>
-            Eastern Africa
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-primary btn-sm"
-              type="button"
-            >
-              Info
-            </button>
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-danger btn-sm"
-              type="button"
-            >
-              Species
-            </button>
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-danger btn-sm"
-              type="button"
-            >
-              Species
-            </button>
-          </td>
-        </tr>
-        <tr>
-          <td>
             Global
           </td>
           <td>
@@ -114,65 +85,7 @@ exports[`RegionList snapshot 1`] = `
         </tr>
         <tr>
           <td>
-            Western Africa
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-primary btn-sm"
-              type="button"
-            >
-              Info
-            </button>
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-danger btn-sm"
-              type="button"
-            >
-              Species
-            </button>
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-danger btn-sm"
-              type="button"
-            >
-              Species
-            </button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Northern Africa
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-primary btn-sm"
-              type="button"
-            >
-              Info
-            </button>
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-danger btn-sm"
-              type="button"
-            >
-              Species
-            </button>
-          </td>
-          <td>
-            <button
-              class="btn btn-outline-danger btn-sm"
-              type="button"
-            >
-              Species
-            </button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Central Africa
+            Eastern Africa
           </td>
           <td>
             <button
@@ -260,6 +173,93 @@ exports[`RegionList snapshot 1`] = `
         <tr>
           <td>
             Mediterranean
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Western Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Central Africa
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-primary btn-sm"
+              type="button"
+            >
+              Info
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+          <td>
+            <button
+              class="btn btn-outline-danger btn-sm"
+              type="button"
+            >
+              Species
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Northern Africa
           </td>
           <td>
             <button
